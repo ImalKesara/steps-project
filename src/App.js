@@ -14,7 +14,6 @@ export default function App() {
   };
 
   const handleNext = () => {
-    // alert("Next");
     if (step < 3) setStep(step + 1);
   };
 
